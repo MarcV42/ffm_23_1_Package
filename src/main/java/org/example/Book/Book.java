@@ -30,7 +30,16 @@ public class Book {
         this.isbn = isbn;
     }
 
+    //Konstrukor
+public Book(String title, String author, String isbn){
+        this.title = title;
+        this.isbn = isbn;
+        this.author = author;
 
+}
+
+    public Book() {
+    }
 
     @Override
     public String toString() {

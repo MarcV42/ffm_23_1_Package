@@ -6,6 +6,9 @@ import org.example.Library.Library;
 import java.util.Arrays;
 
 public class Main {
+    public Main() {
+    }
+
     public static void main(String[] args) {
 
         Library library = new Library();
@@ -24,7 +27,11 @@ public class Main {
         hdrT3.setIsbn("111-234-2134-26-245");
         hdrT3.setAuthor("J.R. Tolkien");
 
-        Book[] arrayBooks = {hdrT1, hdrT2, hdrT3};
+
+
+        Book dkH = new Book("Der kleine Hobbit", "J.R. Tolkien", "29038402384");
+
+        Book[] arrayBooks = {hdrT1, hdrT2, hdrT3, dkH};
 
         System.out.println(Arrays.toString(arrayBooks));
     }
