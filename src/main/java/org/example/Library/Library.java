@@ -16,6 +16,15 @@ public class Library {
         Books = books;
     }
 
+    public void addBookToLibrary(Library library, Book book){
+        int lengthBookArray = this.Books.length;
+        Library libraryNew = new Library();
+
+    }
+
+    public void deleteBook(Book book){
+
+    }
     @Override
     public String toString() {
         return "Library{" +
